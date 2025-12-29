@@ -1,0 +1,34 @@
+# ---- C++ build outputs ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# ---- Common build folders ----
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+compile_commands.json
+
+# ---- IDE/editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Project runtime files (optional) ----
+# If you don't want to commit the data file:
+books.json
