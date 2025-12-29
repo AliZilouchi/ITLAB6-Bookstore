@@ -51,7 +51,7 @@ struct Token {
     TokType type{TokType::INVALID};
     std::string text; // for STRING/NUMBER
 };
-//
+
 struct Tokenizer {
     const std::string& s;
     size_t i{0};
