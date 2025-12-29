@@ -49,7 +49,7 @@ enum class TokType { LBRACKET, RBRACKET, LBRACE, RBRACE, COMMA, COLON, STRING, N
 
 struct Token {
     TokType type{TokType::INVALID};
-    std::string text; // for STRING/NUMBER
+    std::string text; 
 };
 
 struct Tokenizer {
